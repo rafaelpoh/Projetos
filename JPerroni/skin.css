@@ -1,6 +1,13 @@
+body{
+    background-color: rgb(35, 35, 187);
+}
 h1{
-    color: rgb(0, 17, 255);
+    color: rgb(91, 255, 70);
 }
 p{
     color: rgb(35, 35, 187);
+}
+#contatos{
+    background-color: rgb(91, 255, 70);
+    font-size: 1000%;
 }
