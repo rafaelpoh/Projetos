@@ -1,17 +1,15 @@
 body{
     /* background: rgb(95, 95, 252) url(./icones/logo1.png) no-repeat right bottom; */
-    background: linear-gradient(45deg,rgb(95, 95, 252), rgb(35, 35, 187), green); 
+    background: linear-gradient(45deg, rgb(95, 95, 252), rgb(35, 35, 187) ); 
     /* background: url(./icones/logo.png) no-repeat right bottom; */
-}
-#topo{
-    color: rgb(91, 255, 70);
-    font-size: 500%;
 }
 #contatos{
     height: max-content;
     width: max-content;
-    color: rgb(35, 35, 187);
+    color: rgb(20, 93, 177);
     /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
-    background-color: rgb(91, 255, 70);
+    /* background-color: rgb(91, 255, 70); */
+    /* background-color: rgb(78, 255, 101); */
+    background: linear-gradient(135deg,rgb(145, 252, 95), rgb(35, 187, 73), green); 
     font-size: 500%;
 }
