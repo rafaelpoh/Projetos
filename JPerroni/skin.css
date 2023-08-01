@@ -1,11 +1,14 @@
 body{
-    background-color: rgb(35, 35, 187);
+    background: rgb(95, 95, 252) url(./icones/nova\ logo1.png) no-repeat right;
 }
-h1{
+#topo{
     color: rgb(91, 255, 70);
+    font-size: 500%;
 }
 #contatos{
+    height: max-content;
+    width: max-content;
     color: rgb(35, 35, 187);
     background-color: rgb(91, 255, 70);
-    font-size: 1000%;
+    font-size: 500%;
 }
