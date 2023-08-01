@@ -1,5 +1,7 @@
 body{
-    background: rgb(95, 95, 252) url(./icones/nova\ logo1.png) no-repeat right;
+    /* background: rgb(95, 95, 252) url(./icones/logo1.png) no-repeat right bottom; */
+    background: linear-gradient(45deg,rgb(95, 95, 252), rgb(35, 35, 187), green); 
+    /* background: url(./icones/logo.png) no-repeat right bottom; */
 }
 #topo{
     color: rgb(91, 255, 70);
@@ -9,6 +11,7 @@ body{
     height: max-content;
     width: max-content;
     color: rgb(35, 35, 187);
+    /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
     background-color: rgb(91, 255, 70);
     font-size: 500%;
 }
