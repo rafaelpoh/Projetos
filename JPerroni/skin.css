@@ -1,15 +1,25 @@
 body{
-    /* background: rgb(95, 95, 252) url(./icones/logo1.png) no-repeat right bottom; */
-    background: linear-gradient(45deg, rgb(95, 95, 252), rgb(35, 35, 187) ); 
+    background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(0, 162, 255);
+    /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(35, 35, 187); */
+    /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(95, 95, 252); */
+    /* background: url(./icones/logo.png) no-repeat center; */
     /* background: url(./icones/logo.png) no-repeat right bottom; */
 }
+#logo{
+    height: 200px
+}
+.contatos{
+    height: 100px;
+}
 #contatos{
+    position: relative;
     height: max-content;
     width: max-content;
     color: rgb(20, 93, 177);
+    background-color: white;
     /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
     /* background-color: rgb(91, 255, 70); */
     /* background-color: rgb(78, 255, 101); */
-    background: linear-gradient(135deg,rgb(145, 252, 95), rgb(35, 187, 73), green); 
-    font-size: 500%;
+    /* background: linear-gradient(135deg,rgb(145, 252, 95), rgb(35, 187, 73), green);  */
+    font-size: 40px;
 }
