@@ -1,5 +1,5 @@
 body{
-    background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(0, 162, 255);
+    background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255);
     /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(35, 35, 187); */
     /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(95, 95, 252); */
     /* background: url(./icones/logo.png) no-repeat center; */
@@ -9,10 +9,9 @@ body{
     height: 200px
 }
 .contatos{
-    height: 60px;
+    height: 65px;
 }
 #contatos{
-    position: relative;
     height: max-content;
     width: max-content;
     color: rgb(20, 93, 177);
@@ -22,4 +21,6 @@ body{
     /* background-color: rgb(78, 255, 101); */
     /* background: linear-gradient(135deg,rgb(145, 252, 95), rgb(35, 187, 73), green);  */
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
 }
