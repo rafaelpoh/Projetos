@@ -8,14 +8,19 @@ body{
     /* background: url(./icones/logo.png) no-repeat right bottom; */
 }
 h1{
-    padding: 0;
+    margin: 2px;
+}
+p{
     margin: 0;
+}
+ul{
+    margin: 2px;
 }
 #logo{
     height: 200px
 }
 .contatos{
-    height: 65px;
+    height: 48px;
 }
 #contatos{
     border-width: 3px;
