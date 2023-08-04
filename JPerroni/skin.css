@@ -20,6 +20,7 @@ ul{
     height: 200px
 }
 .contatos{
+    margin: 5px;
     height: 48px;
 }
 #contatos{
@@ -40,6 +41,7 @@ ul{
     font-variant: small-caps;
 }
 .infos{
+    margin: 10 0 10 0;
     border-width: 3px;
     border-style: solid ;
     border-color: greenyellow;
