@@ -22,8 +22,8 @@ li{
 #logo{
     height: 200px
 }
-.contatos{
-    margin: 5px;
+.icone{
+    margin: 2px;
     height: 48px;
 }
 .lista{
@@ -44,7 +44,7 @@ li{
     /* background-color: rgb(91, 255, 70); */
     /* background-color: rgb(78, 255, 101); */
     /* background: linear-gradient(135deg,rgb(145, 252, 95), rgb(35, 187, 73), green);  */
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
 }
@@ -55,7 +55,7 @@ li{
     border-color: greenyellow;
     border-radius: 5%;
     height: max-content;
-    width: 900;
+    width: 49%;
     color: rgb(20, 93, 177);
     background-color: white;
     /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
