@@ -40,6 +40,9 @@ li{
     width: max-content;
     color: rgb(20, 93, 177);
     background-color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
     /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
     /* background-color: rgb(91, 255, 70); */
     /* background-color: rgb(78, 255, 101); */
