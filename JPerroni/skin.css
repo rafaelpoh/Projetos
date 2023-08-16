@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding-top: 0;
-    background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255);
+    /* background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255); */
+    background: linear-gradient(rgb(65, 65, 235), rgb(14, 179, 235));
     /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(35, 35, 187); */
     /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(95, 95, 252); */
     /* background: url(./icones/logo.png) no-repeat center; */
@@ -41,8 +42,8 @@ li{
     color: rgb(20, 93, 177);
     background-color: white;
     position: fixed;
-    right: 10px;
-    bottom: 5px;
+    right: 350px;
+    bottom: 70px;
     /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
     /* background-color: rgb(91, 255, 70); */
     /* background-color: rgb(78, 255, 101); */
@@ -67,4 +68,7 @@ li{
     /* background: linear-gradient(135deg,rgb(145, 252, 95), rgb(35, 187, 73), green);  */
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+}
+#logo{
+    float: right;
 }
