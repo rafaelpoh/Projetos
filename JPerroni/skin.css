@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding-top: 0;
-    /* background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255); */
-    background: linear-gradient(rgb(65, 65, 235), rgb(14, 179, 235));
+    background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255);
+    /* background: linear-gradient(rgb(65, 65, 235), rgb(14, 179, 235)), url(./icones/logo1.png, right, top); */
     /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(35, 35, 187); */
     /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(95, 95, 252); */
     /* background: url(./icones/logo.png) no-repeat center; */
@@ -19,9 +19,6 @@ ul{
 }
 li{
     margin: 0;
-}
-#logo{
-    height: 200px
 }
 .icone{
     margin: 2px;
