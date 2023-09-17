@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(36, 82, 151);
+}
+header{
+    
+    text-align: center;
+    background-color:  rgb(36, 82, 151);
+    color: rgb(16, 148, 255);
+    padding: 2px;
+
+}
+.container1{
+    max-width: 1000px;
+    margin: auto;
+}
+.container2{
+    max-width: 1000px;
+    min-height: 932px;
+    margin: auto;
+}
+section{
+    color: rgb(166, 78, 248);
+}
