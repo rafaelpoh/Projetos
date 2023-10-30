@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding-top: 0;
-    background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255);
+    /* background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(0, 162, 255); */
     /* background: linear-gradient(rgb(65, 65, 235), rgb(14, 179, 235)), url(./icones/logo1.png, right, top); */
-    /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(35, 35, 187); */
-    /* background:  url(./icones/logo1.png) no-repeat center transparent; background-color: rgb(95, 95, 252); */
+    /* background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(35, 35, 187); */
+    background:  url(./icones/logo1.png) no-repeat top right transparent; background-color: rgb(95, 95, 252);
     /* background: url(./icones/logo.png) no-repeat center; */
     /* background: url(./icones/logo.png) no-repeat right bottom; */
     display: inline;
+    background-size: 20%;
 }
 h1,p{
     margin: 2px;
@@ -24,7 +25,7 @@ ul,li{
     display: inline-table
 }
 #contatos{
-    margin: 5 0 10 5;
+    margin:  0;
     border-width: 3px;
     border-style: solid ;
     border-color: greenyellow;
@@ -34,8 +35,8 @@ ul,li{
     color: rgb(20, 93, 177);
     background-color: white;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 27%;
+    top: 5%;
     /* background: linear-gradient(to bottom right,rgb(95, 95, 252), rgb(35, 35, 187), green); */
     /* background-color: rgb(91, 255, 70); */
     /* background-color: rgb(78, 255, 101); */
@@ -43,6 +44,21 @@ ul,li{
     font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
+}
+#convite{
+    margin:  0;
+    border-width: 3px;
+    border-style: solid ;
+    border-color: greenyellow;
+    border-radius: 5%;
+    height: 620;
+    color: rgb(20, 93, 177);
+    background-color: white;
+    position: fixed;
+    right: 410px;
+    top: 28%;
+    max-width: 450;
+    
 }
 .formContainer{
     border-width: 3px;
@@ -95,8 +111,15 @@ input, select {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
-#logo{
-    float: right;
+.img{
+    height: 350px;
+    width: 400px;
+}
+#imagem{
+    display: grid;
+    position: fixed;
+    top: 28%;
+    right: 0;
 }
 .infos, .formContainer{
     margin: 20 5 0 5 ;
