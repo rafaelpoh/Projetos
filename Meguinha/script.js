@@ -1,21 +1,19 @@
-function sortearNumero(){
-   var numeroRnd = Math.floor(Math.random() * 60);
-   return numeroRnd;
+function sortearNumero() {
+    return Math.floor(Math.random() * 60);
 }
-function testaNumero(numeroRnd){
-        for( var i = 0; i < numerosJogo;i++){
-            if(numeroRnd == mega[i]){
-            i=0;
-            numeroRnd = sortearNumero;
-        }else if(numeroRnd != mega[i] && mega[i] == 0){
-            mega[i] = numeroRnd;
+
+function testaNumero(numeroRnd, mega) {
+    for (var i = 0; i < mega.length; i++) {
+        if (numeroRnd == mega[i]) {
+            return sortearNumero();
         }
     }
-        
-    };
-var numerosJogo = prompt('informe quantos numeros deseja jogar na mega');
-var mega = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] ;
-testaNumero (sortearNumero);
-for(i=0; i<numerosJogo; i++){
-    console.log(mega[i]);
+    return numeroRnd;
 }
+var numerosJogo = parseInt(prompt('Informe quantos números deseja jogar na mega (max 20)'));
+var mega = new Array(numerosJogo).fill(0);
+
+for (i = 0; i < numerosJogo; i++) {
+    mega[i] = testaNumero(sortearNumero(), mega);
+}
+alert(mega);
